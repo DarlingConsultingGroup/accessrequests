@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "acq",
+      "connection": "AC_SERVICE_BUS_CONNECTION_STR"
+    }
+  ]
+}
